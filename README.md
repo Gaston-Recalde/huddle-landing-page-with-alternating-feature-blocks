@@ -14,11 +14,11 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/huddle-landing-page.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://superlative-shortbread-fac030.netlify.app)
 
 ## My process
 
