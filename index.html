@@ -2,68 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
 
-  Try It Free
+  <header>
+    <div class="encabezado">
+      <img src="./images/logo.svg" alt="Logo" class="encabezado__img">
+      <button class="encabezado__button">Try It Free</button>
+    </div>
+    <div class="info">
+      <h1 class="info__title">Build The Community Your Fans Will Love</h1>
+      <p class="info__p">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. </p>
+      <button class="info__button">Get Started For Free</button>
+      <img src="./images/illustration-mockups.svg" alt="Mockups" class="info__img">
+    </div>
+  </header>
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
+  <main>
+    <div class="container">
+      <div class="card together">
+        <img src="./images/illustration-grow-together.svg" alt="Grow Together" class="together__img _img">
+        <h2 class="together__h2 _h2">Grow Together</h2>
+        <p class="together__p _p">Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form. </p>
+      </div>
+  
+      <div class="card conversation">
+        <img src="./images/illustration-flowing-conversation.svg" alt="Flowing Conversation" class="conversation__img _img">
+        <h2 class="conversation__h2 _h2">Flowing Conversations</h2>
+        <p class="conversation__p _p">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow. </p>
+      </div>
+  
+      <div class="card users">
+        <img src="./images/illustration-your-users.svg" alt="Yours Users" class="users__img _img">
+        <h2 class="users__h2 _h2">Your Users</h2>
+        <p class="users__p _p">It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately. </p>
+      </div>
+      
+      <div class="card ready">
+        <h2 class="ready__h2 _h2">Ready To Build Your Community?</h2>
+        <button class="info__button ready__button">Get Started For Free</button>
+      </div>
+    </div>
+  </main>
 
   <footer>
+    <div class="footer__container">
+      <img src="./images/logo.svg" alt="Logo" class="footer__img">
+      <div class="footer__info">
+        
+        <div class="location">
+          <img src="./images/icon-location.svg" alt="Icon Location" class="location__img">
+          <p class="footer__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+        <div class="phone">
+          <img src="./images/icon-phone.svg" alt="Icon Phone" class="phone__img">
+          <p class="footer__p">+1-543-123-4567</p>
+        </div>
+
+        <div class="email">
+          <img src="./images/icon-email.svg" alt="Icon Email" class="email__img">
+          <p class="footer__p">example@huddle.com</p>
+        </div>
+        
+      </div>
+      
+      <div class="contac">
+        <div class="contact__a">
+          <ul>
+            <li><a href="#">About Us</a> </li>
+            <li><a href="#">What We Do</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="contact__social">
+          <i class="uil uil-facebook-f"></i>
+          <i class="uil uil-twitter"></i>
+          <i class="uil uil-instagram"></i>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer__p f_p">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
     </p>
   </footer>
 </body>
