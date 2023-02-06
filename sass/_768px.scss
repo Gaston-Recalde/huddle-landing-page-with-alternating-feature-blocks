@@ -63,9 +63,6 @@
     
         .contenedor{
     
-            .footer__img{
-            }
-    
             .footer__container{
                 flex-direction: column;
                 gap: 100px;
@@ -75,70 +72,20 @@
     
                     .location{
                         align-items: flex-start;
-    
-                        .location__img{
-                        }
-    
-                        .footer__p{
-                        }
-                    }
-    
-                    .phone{
-    
-                        .phone__img{
-                        }
-    
-                        .footer__p{
-                        }
-                    }
-    
-                    .email{
-    
-                        .email__img{
-                        }
-    
-                        .footer__p{
-                        }
                     }
                 }
     
                 .contac{
                     width: 83%;
                     margin-top: 0;
-    
-                    .contact__a{
-    
-                        ul{
-    
-                            li{
-    
-                                a{
-    
-                                    &:hover{
-                                    }
-                                }
-                            }
-                        }
-                    }
                 }
     
                 .contact__social{
                     gap: 15px;
                     justify-content: center;
                     width: 100%;
-    
-                    i{
-    
-                        &:hover{
-                        }
-                    }
                 }
     
-            }
-    
-            .f_p{
-                // margin-right: 5%;
-                // text-align: center;
             }
         }
     }

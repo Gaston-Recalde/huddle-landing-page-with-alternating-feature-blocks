@@ -1,7 +1,7 @@
 .header{
     background-image: url('./images/bg-hero-mobile.svg');
     background-repeat: no-repeat;
-    background-color: hsl(193, 100%, 96%);
+    background-color: $very-pale-cyan;
     margin: 0 auto;
 
     .encabezado{
@@ -23,15 +23,15 @@
             height: 25px;
             font-size: 12px;
             font-weight: 700;
-            color: hsl(192, 100%, 9%);
+            color: $very-dark-cyan;
             border: none;
-            background-color: #fff;
+            background-color: $white;
             box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
             border-radius: 50px;
 
             &:hover{
                 cursor: pointer;
-                color: hsl(192, 100%, 9%, 65%);
+                color: $grayish-blue;
             }
         }
     }
@@ -51,17 +51,16 @@
 
         &__title{
             width: 95%;
-            font-family: 'Poppins', sans-serif;
             font-size: 24px;
             font-weight: 600;
             text-align: center;
-            color: hsl(192, 100%, 9%);
+            color: $very-dark-cyan;
         }
 
         &__p{
             text-align: center;
             margin: 25px 0 25px;
-            color: hsl(192, 100%, 9%); 
+            color: $very-dark-cyan;
         }
 
         &__button{
@@ -69,16 +68,16 @@
             height: 40px;
             font-size: 12px;
             font-weight: 700;
-            color: #fff;
+            color: $white;
             border: none;
             border-radius: 50px;
-            background-color: hsl(322, 100%, 66%);
+            background-color: $pink;
             box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
             margin-bottom: 50px;
 
             &:hover{
                 cursor: pointer;
-                background-color: rgb(255, 82, 191,75%);
+                background-color: $pink-2
             }
         }
 
@@ -106,7 +105,7 @@
             padding: 50px 35px 35px;
             margin-bottom: 35px;
             border-radius: 10px;
-            background-color: #fff;
+            background-color: $white;
             box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 
             ._img{
@@ -115,8 +114,7 @@
             }
 
             ._h2{
-                color:hsl(192, 100%, 9%);
-                // font-family: 'Poppins';
+                color:$very-dark-cyan;
                 font-weight: 600;
                 font-size: 20px;
                 margin-bottom: 15px;
@@ -124,7 +122,7 @@
             }
 
             ._p{
-                color: hsl(208, 11%, 55%);
+                color: $grayish-blue;
                 text-align: center;
                 font-size: 14px; 
             }
@@ -148,12 +146,12 @@
                 color: #fff;
                 border: none;
                 border-radius: 50px;
-                background-color: hsl(322, 100%, 66%);
+                background-color: $pink;
                 box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
                 margin-bottom: 50px;
 
                 &:hover{
-                    background-color: rgb(255, 82, 191,75%);
+                    background-color: $pink-2;
                 }
             }
         }
@@ -161,7 +159,7 @@
 }
 
 .footer{
-    background-color: hsl(192, 100%, 9%);
+    background-color: $very-dark-cyan;
     padding-top: 125px;
 
     .contenedor{
@@ -191,7 +189,7 @@
                     }
 
                     .footer__p{
-                        color:#fff;
+                        color: $white;
                         font-size: 16px;
                     }
                 }
@@ -206,7 +204,7 @@
                     }
 
                     .footer__p{
-                        color:#fff;
+                        color: $white;
                         font-size: 16px;
                     }
                 }
@@ -221,7 +219,7 @@
                     }
 
                     .footer__p{
-                        color:#fff;
+                        color: $white;
                         font-size: 16px;
                     }
                 }
@@ -241,12 +239,12 @@
                             margin-bottom: 20px;
 
                             a{
-                                color: #fff;
+                                color: $white;
                                 font-size: 18px;
 
                                 &:hover{
                                     cursor: pointer;
-                                    border-bottom: 1px solid #fff;
+                                    border-bottom: 1px solid $white;
                                 }
                             }
                         }
@@ -266,13 +264,13 @@
                     color: #fff;
                     font-size: 24px;
                     padding: 8px;
-                    border: 1px solid #fff;
+                    border: 1px solid $white;
                     border-radius: 50%;
 
                     &:hover{
                         cursor: pointer;
-                        border: 1px solid hsl(322, 100%, 66%);
-                        color: hsl(322, 100%, 66%);
+                        border: 1px solid $pink;
+                        color: $pink;
                     }
                 }
             }
@@ -280,7 +278,7 @@
         }
 
         .f_p{
-            color:#fff;
+            color: $white;
             font-size: 12px;
             text-align: center;
         }
