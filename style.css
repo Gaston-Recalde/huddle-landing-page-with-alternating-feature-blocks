@@ -98,7 +98,7 @@ header{
 
 .info__button:hover{
     cursor: pointer;
-    background-color: rgb(255, 82, 191,75%);;
+    background-color: rgb(255, 82, 191,75%);
 }
 
 .info__img{
@@ -168,7 +168,6 @@ header{
 
 footer{
     background-color: hsl(192, 100%, 9%);
-
     padding-top: 125px;
 }
 
@@ -260,8 +259,7 @@ footer{
     margin: 0 auto;
 }
 
-.attribution { color:#fff; font-size: 11px; text-align: center; margin-top: 15px; padding-bottom: 15px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
 @media screen and (min-width: 768px) {
     

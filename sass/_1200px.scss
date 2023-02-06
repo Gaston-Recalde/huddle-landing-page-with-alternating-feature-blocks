@@ -1,0 +1,24 @@
+@media screen and (min-width: 1200px) {
+    .footer{
+
+        .contenedor{
+
+            .footer__container{
+
+                .contac{
+
+                    .contact__a{
+                        flex-direction: row;
+                        gap: 100px;
+                    }
+                }
+
+                .contact__social{
+                    gap: 15px;
+                    justify-content: center;
+                    width: 83%;
+                }
+            }
+        }
+    }
+}
